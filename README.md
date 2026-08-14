@@ -13,4 +13,4 @@ and the auto-generated student-facing org page - **faculty, instructors and facu
 - `profile/README.md` - the student-facing org landing page (auto-generated; don't hand-edit).
 - Students join via the **welcome** repo's "Join course" issue; the roster lives in **classroom-config**.
 
-Built and kept in sync by the [DSL teaching toolkit](https://github.com/hertie-data-science-lab/dsl-teaching-course-setup).
+Built and kept in sync by the [DSL teaching toolkit](https://github.com/hertie-data-science-lab/dsl-teaching-toolkit).
