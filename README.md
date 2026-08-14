@@ -1,6 +1,6 @@
-# Hertie-School-Maths-Data-Science-f2026 - cohort control repo
+# hertie-maths-data-science-f2026 - cohort control repo
 
-This is the **`.github` repo** for the `Hertie-School-Maths-Data-Science-f2026` cohort org. It holds this cohort's configuration
+This is the **`.github` repo** for the `hertie-maths-data-science-f2026` cohort org. It holds this cohort's configuration
 and the auto-generated student-facing org page - **faculty, instructors and faculty assistants (FAs) delivering the course rarely need to touch it directly.**
 
 - The **faculty & instructors action buttons** (Release, Grade, Sync ...) live in the **parent course org's**
