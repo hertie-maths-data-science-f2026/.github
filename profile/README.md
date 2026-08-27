@@ -1,10 +1,14 @@
-# hertie-maths-data-science-f2026
+<!-- INSTRUCTOR-OWNED - this is the page students land on, so it is yours to word.
+     It is seeded ONCE and every edit you make survives the nightly refresh. The one
+     exception is the repo table below, between the dsl:repo-table markers. -->
 
-Welcome! This is the course organisation for **hertie-maths-data-science-f2026**.
+# Maths for Data Science
+
+Welcome! This is the course organisation for **Maths for Data Science**.
 
 ## Course website
 
-**[hertie-maths-data-science-f2026 - course website](https://hertie-maths-data-science-f2026.github.io/)** - schedule,
+**[Maths for Data Science - course website](https://hertie-maths-data-science-f2026.github.io/)** - schedule,
 lectures, assignments, and the teaching team. Auto-generated and kept in sync with this
 org; updates on every release.
 
@@ -18,15 +22,20 @@ org; updates on every release.
 
 ## Where things are
 
+<!-- dsl:repo-table:start - AUTO-GENERATED from this org's live repo list.
+     Edits between these markers are overwritten on the next refresh. The
+     "What it's for" column is each repo's own GitHub description - to change
+     what a row says, edit that. -->
 | Repo | Visibility | What it's for |
 | --- | --- | --- |
 | [welcome](https://github.com/hertie-maths-data-science-f2026/welcome) | public | Course front door - open a Join issue to enrol |
 | [classroom-config](https://github.com/hertie-maths-data-science-f2026/classroom-config) | private | PRIVATE cohort config - roster (students.csv). No PII leaves here. |
 | [hertie-maths-data-science-f2026.github.io](https://github.com/hertie-maths-data-science-f2026/hertie-maths-data-science-f2026.github.io) | public | Course website (auto-deployed on push) |
 | [materials](https://github.com/hertie-maths-data-science-f2026/materials) | private | Released course materials (enrolled students only) |
+<!-- dsl:repo-table:end -->
 
 _Teaching staff (instructors, TAs, faculty assistants): your action workflows aren't here - they live in the
 parent **course org's** `.github` control panel, on its Actions tab._
 
 ---
-_Hertie Data Science Lab. This page is auto-generated._
+_Hertie Data Science Lab._
