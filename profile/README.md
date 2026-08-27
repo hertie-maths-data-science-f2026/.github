@@ -31,7 +31,7 @@ org; updates on every release.
 | [welcome](https://github.com/hertie-maths-data-science-f2026/welcome) | public | Course front door - open a Join issue to enrol |
 | [classroom-config](https://github.com/hertie-maths-data-science-f2026/classroom-config) | private | PRIVATE cohort config - roster (students.csv). No PII leaves here. |
 | [hertie-maths-data-science-f2026.github.io](https://github.com/hertie-maths-data-science-f2026/hertie-maths-data-science-f2026.github.io) | public | Course website (auto-deployed on push) |
-| [materials](https://github.com/hertie-maths-data-science-f2026/materials) | private | Released course materials (enrolled students only) |
+| [materials](https://github.com/hertie-maths-data-science-f2026/materials) | private | Released lectures, labs, readings, and other materials |
 <!-- dsl:repo-table:end -->
 
 _Teaching staff (instructors, TAs, faculty assistants): your action workflows aren't here - they live in the
