@@ -25,13 +25,14 @@ org; updates on every release.
 <!-- dsl:repo-table:start - AUTO-GENERATED from this org's live repo list.
      Edits between these markers are overwritten on the next refresh. The
      "What it's for" column is each repo's own GitHub description - to change
-     what a row says, edit that. -->
-| Repo | Visibility | What it's for |
+     what a row says, edit that. "Who can see it" is derived from the repo,
+     and is the audience rather than GitHub's public/private. -->
+| Repo | Who can see it | What it's for |
 | --- | --- | --- |
-| [welcome](https://github.com/hertie-maths-data-science-f2026/welcome) | public | Course front door - open a Join issue to enrol |
-| [classroom-config](https://github.com/hertie-maths-data-science-f2026/classroom-config) | private | [visible to instructors only]: Everything you configure for this cohort is here - student roster, teams, term schedule, and marking. Students never see it, and no PII leaves this repo. |
+| [welcome](https://github.com/hertie-maths-data-science-f2026/welcome) | public (students join here) | Course front door - open a Join issue to enrol |
+| [materials](https://github.com/hertie-maths-data-science-f2026/materials) | enrolled students & auditors only | Released lectures, labs, readings, & other materials |
+| [classroom-config](https://github.com/hertie-maths-data-science-f2026/classroom-config) | instructor-only | [visible to instructors only]: Everything you configure for this cohort is here - student roster, teams, term schedule, and marking. Students never see it, and no PII leaves this repo. |
 | [hertie-maths-data-science-f2026.github.io](https://github.com/hertie-maths-data-science-f2026/hertie-maths-data-science-f2026.github.io) | public | [do not touch]: Course website (auto-deployed) |
-| [materials](https://github.com/hertie-maths-data-science-f2026/materials) | private | Released lectures, labs, readings, & other materials |
 <!-- dsl:repo-table:end -->
 
 ---
