@@ -1,0 +1,1253 @@
+{
+  "schema": "dsl.student-status/2",
+  "semester": "hertie-maths-data-science-f2026",
+  "course_name": "Maths for Data Science",
+  "course_description": "This course aims to deliver a compact and tailored introduction to the core mathematical concepts of data science: probability theory, calculus, linear algebra, and statistics. We will establish and reinforce the foundation that will support your further studies in machine learning, deep learning, and causal inference, and which will inform how you conceptualize and analyze data. By the end of the course, students will (re)acquaint themselves with the basic principles of probability theory that structure the process that generates data; with the behavior of functions that describe relationships in data; with the rules of linear algebra that govern how to manipulate data; and, finally, with the tools of statistical learning that we use to extract information from our datasets.",
+  "student_console": false,
+  "semester_start": "2026-08-01",
+  "semester_end": "2027-01-31",
+  "generated_at": "2026-10-13T20:49:46+00:00",
+  "timezone": "Europe/Berlin",
+  "archive_datetime": "2027-04-01",
+  "home_markdown": "Welcome to **Maths for Data Science** at the [Hertie School Data Science Lab]().\n\n**Questions?** Open an issue in this course's [GitHub organisation](https://github.com/hertie-maths-data-science-f2026) or contact the instructor directly.",
+  "previous_offerings": [],
+  "syllabus": null,
+  "kinds": {
+    "lecture": {
+      "label": "Lecture",
+      "colour": "#a94442",
+      "background": "#f2dede",
+      "tab": true
+    },
+    "lab": {
+      "label": "Lab",
+      "colour": "#3c763d",
+      "background": "#dff0d8",
+      "tab": true
+    },
+    "readings": {
+      "label": "Readings",
+      "colour": "#2b6a60",
+      "background": "#dcefec",
+      "tab": true
+    },
+    "exam": {
+      "label": "Exam",
+      "colour": "#2b2f36",
+      "background": "#e6e8ec",
+      "tab": true
+    },
+    "assignment": {
+      "label": "Assignment",
+      "colour": "#1f5fa8",
+      "background": "#d6e6f7",
+      "tab": false
+    },
+    "term": {
+      "label": "Semester",
+      "colour": "#7b3fb8",
+      "background": "#ead9f6",
+      "tab": false
+    },
+    "archive": {
+      "label": "Archive",
+      "colour": "#7d6230",
+      "background": "#fbf2d5",
+      "tab": false
+    },
+    "drop-in": {
+      "label": "Drop-in",
+      "colour": "#8f4a1c",
+      "background": "#fbe3d6",
+      "tab": true
+    },
+    "assets": {
+      "label": "Supporting files",
+      "colour": "#4a5560",
+      "background": "#eceff1",
+      "tab": true
+    },
+    "other": {
+      "label": "Event",
+      "colour": "#7d6230",
+      "background": "#fbf2d5",
+      "tab": true
+    }
+  },
+  "rows": [
+    {
+      "id": "term-start",
+      "kind": "term_date",
+      "when": "2026-08-01",
+      "sort_at": "2026-08-01",
+      "all_day": true,
+      "title": "Semester starts",
+      "subtitle": "",
+      "details": "",
+      "assignment": null,
+      "released": true,
+      "tbc": false,
+      "dateless": false,
+      "off_schedule": false,
+      "links": [],
+      "readings": [],
+      "reading_list": "",
+      "readings_pending": false,
+      "tabs": [
+        "term_date"
+      ]
+    },
+    {
+      "id": "lecture_01",
+      "kind": "lecture",
+      "when": "2026-09-01T08:00:00+02:00",
+      "sort_at": "2026-09-01T08:00:00+02:00",
+      "all_day": false,
+      "title": "Lecture 1",
+      "subtitle": "Probability Theory",
+      "details": "",
+      "assignment": null,
+      "released": true,
+      "tbc": false,
+      "dateless": false,
+      "off_schedule": false,
+      "links": [
+        {
+          "name": "01_probability_theory.html",
+          "repo": "materials",
+          "path": "lectures/01_lecture/01_probability_theory.html",
+          "url": "https://github.com/hertie-maths-data-science-f2026/materials/blob/main/lectures/01_lecture/01_probability_theory.html"
+        },
+        {
+          "name": "01_probability_theory.pdf",
+          "repo": "materials",
+          "path": "lectures/01_lecture/01_probability_theory.pdf",
+          "url": "https://github.com/hertie-maths-data-science-f2026/materials/blob/main/lectures/01_lecture/01_probability_theory.pdf"
+        },
+        {
+          "name": "01_probability_theory_files/ (141 files)",
+          "repo": "materials",
+          "path": "lectures/01_lecture/01_probability_theory_files",
+          "url": "https://github.com/hertie-maths-data-science-f2026/materials/tree/main/lectures/01_lecture/01_probability_theory_files"
+        },
+        {
+          "name": "media/ (14 files)",
+          "repo": "materials",
+          "path": "lectures/01_lecture/media",
+          "url": "https://github.com/hertie-maths-data-science-f2026/materials/tree/main/lectures/01_lecture/media"
+        }
+      ],
+      "readings": [],
+      "reading_list": "### Session 1 readings\n\n#### Required Readings\n\n[Blitzstein and Hwang](http://probabilitybook.net/)\n\n- Chapter 1 (p. 1-28)\n- Chapter 2 (p. 45-66)\n- Example 2.7.1, The Monty Hall Problem",
+      "readings_pending": false,
+      "tabs": [
+        "lecture",
+        "readings"
+      ]
+    },
+    {
+      "id": "01_lab",
+      "kind": "lab",
+      "when": "2026-09-02T09:00:00+02:00",
+      "sort_at": "2026-09-02T09:00:00+02:00",
+      "all_day": false,
+      "title": "Lab 1",
+      "subtitle": "",
+      "details": "",
+      "assignment": null,
+      "released": true,
+      "tbc": false,
+      "dateless": false,
+      "off_schedule": false,
+      "links": [
+        {
+          "name": "lab1_handout.pdf",
+          "repo": "materials",
+          "path": "labs/01_lab/lab1_handout.pdf",
+          "url": "https://github.com/hertie-maths-data-science-f2026/materials/blob/main/labs/01_lab/lab1_handout.pdf"
+        },
+        {
+          "name": "lab1_student.ipynb",
+          "repo": "materials",
+          "path": "labs/01_lab/lab1_student.ipynb",
+          "url": "https://github.com/hertie-maths-data-science-f2026/materials/blob/main/labs/01_lab/lab1_student.ipynb"
+        }
+      ],
+      "readings": [],
+      "reading_list": "",
+      "readings_pending": false,
+      "tabs": [
+        "lab"
+      ]
+    },
+    {
+      "id": "assignment-1:handout",
+      "kind": "assignment",
+      "when": "2026-09-08T07:00:00+02:00",
+      "sort_at": "2026-09-08T07:00:00+02:00",
+      "all_day": false,
+      "title": "Assignment 1",
+      "subtitle": "",
+      "details": "",
+      "assignment": "assignment-1",
+      "released": true,
+      "tbc": false,
+      "dateless": false,
+      "off_schedule": false,
+      "links": [],
+      "readings": [],
+      "reading_list": "",
+      "readings_pending": false,
+      "tabs": [
+        "assignment"
+      ]
+    },
+    {
+      "id": "lecture_02",
+      "kind": "lecture",
+      "when": "2026-09-08T08:00:00+02:00",
+      "sort_at": "2026-09-08T08:00:00+02:00",
+      "all_day": false,
+      "title": "Lecture 2",
+      "subtitle": "Random Variables and Their Distributions",
+      "details": "",
+      "assignment": null,
+      "released": true,
+      "tbc": false,
+      "dateless": false,
+      "off_schedule": false,
+      "links": [
+        {
+          "name": "02_random_variables_and_their_distributions.pdf",
+          "repo": "materials",
+          "path": "lectures/02_lecture/02_random_variables_and_their_distributions.pdf",
+          "url": "https://github.com/hertie-maths-data-science-f2026/materials/blob/main/lectures/02_lecture/02_random_variables_and_their_distributions.pdf"
+        }
+      ],
+      "readings": [],
+      "reading_list": "### Session 2 readings\n\n#### Required Readings\n\n[Blitzstein and Hwang](http://probabilitybook.net/)\n\n- Chapter 3 (p. 103-133)\n\n#### Additional Readings\n\nWill Kurt Bayesian Statistics the Fun Way\n\n- Chapter 3 (p. 21 - 31)\n- Chapter 4 (p. 33 - 43)\n- Chapter 5 (p. 45 - 55)\n- Chapter 6 (p. 59 - 65)",
+      "readings_pending": false,
+      "tabs": [
+        "lecture",
+        "readings"
+      ]
+    },
+    {
+      "id": "02_lab",
+      "kind": "lab",
+      "when": "2026-09-09T09:00:00+02:00",
+      "sort_at": "2026-09-09T09:00:00+02:00",
+      "all_day": false,
+      "title": "Lab 2",
+      "subtitle": "",
+      "details": "",
+      "assignment": null,
+      "released": true,
+      "tbc": false,
+      "dateless": false,
+      "off_schedule": false,
+      "links": [
+        {
+          "name": "lab2_handout.pdf",
+          "repo": "materials",
+          "path": "labs/02_lab/lab2_handout.pdf",
+          "url": "https://github.com/hertie-maths-data-science-f2026/materials/blob/main/labs/02_lab/lab2_handout.pdf"
+        },
+        {
+          "name": "lab2_student.ipynb",
+          "repo": "materials",
+          "path": "labs/02_lab/lab2_student.ipynb",
+          "url": "https://github.com/hertie-maths-data-science-f2026/materials/blob/main/labs/02_lab/lab2_student.ipynb"
+        }
+      ],
+      "readings": [],
+      "reading_list": "",
+      "readings_pending": false,
+      "tabs": [
+        "lab"
+      ]
+    },
+    {
+      "id": "lecture_03",
+      "kind": "lecture",
+      "when": "2026-09-15T08:00:00+02:00",
+      "sort_at": "2026-09-15T08:00:00+02:00",
+      "all_day": false,
+      "title": "Lecture 3",
+      "subtitle": "Expectation and Joint Distributions",
+      "details": "in-class quiz 1",
+      "assignment": null,
+      "released": true,
+      "tbc": false,
+      "dateless": false,
+      "off_schedule": false,
+      "links": [
+        {
+          "name": "03_expectation_and_joint_distributions.pdf",
+          "repo": "materials",
+          "path": "lectures/03_lecture/03_expectation_and_joint_distributions.pdf",
+          "url": "https://github.com/hertie-maths-data-science-f2026/materials/blob/main/lectures/03_lecture/03_expectation_and_joint_distributions.pdf"
+        }
+      ],
+      "readings": [],
+      "reading_list": "### Session 3 readings\n\n#### Required Readings\n\n[Blitzstein and Hwang](http://probabilitybook.net/)\n\n- Chapter 4.1 - 4.3 (p. 149 - 163)\n- Chapter 4.5 - 4.7 (p. 170 - 181)\n- Chapter 7.1 (p. 303 - 312)\n- Chapter 7.4 (p. 332 - 337)",
+      "readings_pending": false,
+      "tabs": [
+        "lecture",
+        "readings"
+      ]
+    },
+    {
+      "id": "03_lab",
+      "kind": "lab",
+      "when": "2026-09-16T09:00:00+02:00",
+      "sort_at": "2026-09-16T09:00:00+02:00",
+      "all_day": false,
+      "title": "Lab 3",
+      "subtitle": "",
+      "details": "",
+      "assignment": null,
+      "released": true,
+      "tbc": false,
+      "dateless": false,
+      "off_schedule": false,
+      "links": [
+        {
+          "name": "lab3_handout.pdf",
+          "repo": "materials",
+          "path": "labs/03_lab/lab3_handout.pdf",
+          "url": "https://github.com/hertie-maths-data-science-f2026/materials/blob/main/labs/03_lab/lab3_handout.pdf"
+        },
+        {
+          "name": "lab3_student.ipynb",
+          "repo": "materials",
+          "path": "labs/03_lab/lab3_student.ipynb",
+          "url": "https://github.com/hertie-maths-data-science-f2026/materials/blob/main/labs/03_lab/lab3_student.ipynb"
+        },
+        {
+          "name": "lab3_student.py",
+          "repo": "materials",
+          "path": "labs/03_lab/lab3_student.py",
+          "url": "https://github.com/hertie-maths-data-science-f2026/materials/blob/main/labs/03_lab/lab3_student.py"
+        }
+      ],
+      "readings": [],
+      "reading_list": "",
+      "readings_pending": false,
+      "tabs": [
+        "lab"
+      ]
+    },
+    {
+      "id": "assignment-1:due",
+      "kind": "due",
+      "when": "2026-09-20T23:59:00+02:00",
+      "sort_at": "2026-09-20T23:59:00+02:00",
+      "all_day": false,
+      "title": "Assignment 1",
+      "subtitle": "",
+      "details": "",
+      "assignment": "assignment-1",
+      "released": true,
+      "tbc": false,
+      "dateless": false,
+      "off_schedule": false,
+      "links": [],
+      "readings": [],
+      "reading_list": "",
+      "readings_pending": false,
+      "tabs": [
+        "due"
+      ]
+    },
+    {
+      "id": "assignment-2:handout",
+      "kind": "assignment",
+      "when": "2026-09-22T07:00:00+02:00",
+      "sort_at": "2026-09-22T07:00:00+02:00",
+      "all_day": false,
+      "title": "Assignment 2",
+      "subtitle": "",
+      "details": "",
+      "assignment": "assignment-2",
+      "released": true,
+      "tbc": false,
+      "dateless": false,
+      "off_schedule": false,
+      "links": [],
+      "readings": [],
+      "reading_list": "",
+      "readings_pending": false,
+      "tabs": [
+        "assignment"
+      ]
+    },
+    {
+      "id": "lecture_04",
+      "kind": "lecture",
+      "when": "2026-09-22T08:00:00+02:00",
+      "sort_at": "2026-09-22T08:00:00+02:00",
+      "all_day": false,
+      "title": "Lecture 4",
+      "subtitle": "Calculus for Data Science",
+      "details": "",
+      "assignment": null,
+      "released": true,
+      "tbc": false,
+      "dateless": false,
+      "off_schedule": false,
+      "links": [
+        {
+          "name": "04_calculus_for_data_science.pdf",
+          "repo": "materials",
+          "path": "lectures/04_lecture/04_calculus_for_data_science.pdf",
+          "url": "https://github.com/hertie-maths-data-science-f2026/materials/blob/main/lectures/04_lecture/04_calculus_for_data_science.pdf"
+        }
+      ],
+      "readings": [],
+      "reading_list": "### Session 4 readings\n\n#### Required Readings\n\nHerman and Strang, Calculus Volume 1\n\n- Chapter 3.3 (p. 247 - 260)\n- Chapter 3.4 (p. 270 - 272)\n- Chapter 3.6 (p. 287 - 289)\n- Chapter 3.9 (p. 323 - 327)\n- Chapter 4.3 (p. 366 - 375)\n- Chapter 4.5 (p. 390 - 402)\n\nHerman and Strang, Calculus Volume 2\n\n- Chapter 6.1 (p. 470 - 477)\n- Chapter 6.3 (p. 497 - 511)",
+      "readings_pending": false,
+      "tabs": [
+        "lecture",
+        "readings"
+      ]
+    },
+    {
+      "id": "04_lab",
+      "kind": "lab",
+      "when": "2026-09-23T09:00:00+02:00",
+      "sort_at": "2026-09-23T09:00:00+02:00",
+      "all_day": false,
+      "title": "Lab 4",
+      "subtitle": "",
+      "details": "",
+      "assignment": null,
+      "released": true,
+      "tbc": false,
+      "dateless": false,
+      "off_schedule": false,
+      "links": [
+        {
+          "name": "lab4_handout.pdf",
+          "repo": "materials",
+          "path": "labs/04_lab/lab4_handout.pdf",
+          "url": "https://github.com/hertie-maths-data-science-f2026/materials/blob/main/labs/04_lab/lab4_handout.pdf"
+        },
+        {
+          "name": "lab4_student.ipynb",
+          "repo": "materials",
+          "path": "labs/04_lab/lab4_student.ipynb",
+          "url": "https://github.com/hertie-maths-data-science-f2026/materials/blob/main/labs/04_lab/lab4_student.ipynb"
+        }
+      ],
+      "readings": [],
+      "reading_list": "",
+      "readings_pending": false,
+      "tabs": [
+        "lab"
+      ]
+    },
+    {
+      "id": "lecture_05",
+      "kind": "lecture",
+      "when": "2026-09-29T08:00:00+02:00",
+      "sort_at": "2026-09-29T08:00:00+02:00",
+      "all_day": false,
+      "title": "Lecture 5",
+      "subtitle": "Continuous Random Variables and Limit Theorems",
+      "details": "in-class quiz 2",
+      "assignment": null,
+      "released": true,
+      "tbc": false,
+      "dateless": false,
+      "off_schedule": false,
+      "links": [
+        {
+          "name": "05_continuous_random_variables_and_limit_theorems.pdf",
+          "repo": "materials",
+          "path": "lectures/05_lecture/05_continuous_random_variables_and_limit_theorems.pdf",
+          "url": "https://github.com/hertie-maths-data-science-f2026/materials/blob/main/lectures/05_lecture/05_continuous_random_variables_and_limit_theorems.pdf"
+        }
+      ],
+      "readings": [],
+      "reading_list": "### Session 5 readings\n\n#### Required Readings\n\n[Blitzstein and Hwang](http://probabilitybook.net/)\n\n- Chapter 5.1 - 5.2 (p. 213 - 223)\n- Chapter 5.4 - 5.5 (p. 231 - 244)\n- Chapter 7 (p. 312 - 320, stop before Example 7.1.25)\n- Chapter 7.2 - 7.3 (p. 324 - 332)\n- Chapter 7.5 (p. 337 - 343)\n- Chapter 10.2 - 10.3 (p. 467 - 476)",
+      "readings_pending": false,
+      "tabs": [
+        "lecture",
+        "readings"
+      ]
+    },
+    {
+      "id": "05_lab",
+      "kind": "lab",
+      "when": "2026-09-30T09:00:00+02:00",
+      "sort_at": "2026-09-30T09:00:00+02:00",
+      "all_day": false,
+      "title": "Lab 5",
+      "subtitle": "",
+      "details": "",
+      "assignment": null,
+      "released": true,
+      "tbc": false,
+      "dateless": false,
+      "off_schedule": false,
+      "links": [
+        {
+          "name": "lab5_handout.pdf",
+          "repo": "materials",
+          "path": "labs/05_lab/lab5_handout.pdf",
+          "url": "https://github.com/hertie-maths-data-science-f2026/materials/blob/main/labs/05_lab/lab5_handout.pdf"
+        },
+        {
+          "name": "lab5_student.ipynb",
+          "repo": "materials",
+          "path": "labs/05_lab/lab5_student.ipynb",
+          "url": "https://github.com/hertie-maths-data-science-f2026/materials/blob/main/labs/05_lab/lab5_student.ipynb"
+        }
+      ],
+      "readings": [],
+      "reading_list": "",
+      "readings_pending": false,
+      "tabs": [
+        "lab"
+      ]
+    },
+    {
+      "id": "lecture_06",
+      "kind": "lecture",
+      "when": "2026-10-06T08:00:00+02:00",
+      "sort_at": "2026-10-06T08:00:00+02:00",
+      "all_day": false,
+      "title": "Lecture 6",
+      "subtitle": "Maximum Likelihood Estimation",
+      "details": "",
+      "assignment": null,
+      "released": true,
+      "tbc": false,
+      "dateless": false,
+      "off_schedule": false,
+      "links": [
+        {
+          "name": "06_maximum_likelihood_estimation.pdf",
+          "repo": "materials",
+          "path": "lectures/06_lecture/06_maximum_likelihood_estimation.pdf",
+          "url": "https://github.com/hertie-maths-data-science-f2026/materials/blob/main/lectures/06_lecture/06_maximum_likelihood_estimation.pdf"
+        }
+      ],
+      "readings": [],
+      "reading_list": "### Session 6 readings\n\n#### Required Readings\n\nWasserman, All of Statistics\n\n- Chapter 6\n- Chapter 9.1\n- Chapter 9.3\n- Chapter 9.4\n\n\n\n#### Additional Readings\n\n[Orloff and Bloom, MIT notes on Maximum Likelihood Estimation](https://math.mit.edu/~dav/05.dir/class10-prep.pdf)\n\nHerman and Strang, Calculus Volume 2\n\n- Chapter 6.1\n- Chapter 6.3",
+      "readings_pending": false,
+      "tabs": [
+        "lecture",
+        "readings"
+      ]
+    },
+    {
+      "id": "06_lab",
+      "kind": "lab",
+      "when": "2026-10-07T09:00:00+02:00",
+      "sort_at": "2026-10-07T09:00:00+02:00",
+      "all_day": false,
+      "title": "Lab 6",
+      "subtitle": "",
+      "details": "",
+      "assignment": null,
+      "released": true,
+      "tbc": false,
+      "dateless": false,
+      "off_schedule": false,
+      "links": [
+        {
+          "name": "lab6_handout.pdf",
+          "repo": "materials",
+          "path": "labs/06_lab/lab6_handout.pdf",
+          "url": "https://github.com/hertie-maths-data-science-f2026/materials/blob/main/labs/06_lab/lab6_handout.pdf"
+        },
+        {
+          "name": "lab6_student.ipynb",
+          "repo": "materials",
+          "path": "labs/06_lab/lab6_student.ipynb",
+          "url": "https://github.com/hertie-maths-data-science-f2026/materials/blob/main/labs/06_lab/lab6_student.ipynb"
+        }
+      ],
+      "readings": [],
+      "reading_list": "",
+      "readings_pending": false,
+      "tabs": [
+        "lab"
+      ]
+    },
+    {
+      "id": "assignment-2:due",
+      "kind": "due",
+      "when": "2026-10-11T23:59:00+02:00",
+      "sort_at": "2026-10-11T23:59:00+02:00",
+      "all_day": false,
+      "title": "Assignment 2",
+      "subtitle": "",
+      "details": "",
+      "assignment": "assignment-2",
+      "released": true,
+      "tbc": false,
+      "dateless": false,
+      "off_schedule": false,
+      "links": [],
+      "readings": [],
+      "reading_list": "",
+      "readings_pending": false,
+      "tabs": [
+        "due"
+      ]
+    },
+    {
+      "id": "assignment-3:handout",
+      "kind": "assignment",
+      "when": "2026-10-13T07:00:00+02:00",
+      "sort_at": "2026-10-13T07:00:00+02:00",
+      "all_day": false,
+      "title": "Assignment 3",
+      "subtitle": "",
+      "details": "",
+      "assignment": "assignment-3",
+      "released": true,
+      "tbc": false,
+      "dateless": false,
+      "off_schedule": false,
+      "links": [],
+      "readings": [],
+      "reading_list": "",
+      "readings_pending": false,
+      "tabs": [
+        "assignment"
+      ]
+    },
+    {
+      "id": "lecture_07",
+      "kind": "lecture",
+      "when": "2026-10-13T08:00:00+02:00",
+      "sort_at": "2026-10-13T08:00:00+02:00",
+      "all_day": false,
+      "title": "Lecture 7",
+      "subtitle": "",
+      "details": "in-class quiz 3",
+      "assignment": null,
+      "released": true,
+      "tbc": false,
+      "dateless": false,
+      "off_schedule": false,
+      "links": [
+        {
+          "name": "07_bayesian_analysis.pdf",
+          "repo": "materials",
+          "path": "lectures/07_lecture/07_bayesian_analysis.pdf",
+          "url": "https://github.com/hertie-maths-data-science-f2026/materials/blob/main/lectures/07_lecture/07_bayesian_analysis.pdf"
+        }
+      ],
+      "readings": [],
+      "reading_list": "### Session 7 readings\n\n#### Readings\n\nGelman et al., Bayesian Data Analysis\n\n- Chapter 1 (p. 3 - 13)\n- Chapter 2 (p. 29 - 56)",
+      "readings_pending": false,
+      "tabs": [
+        "lecture",
+        "readings"
+      ]
+    },
+    {
+      "id": "07_lab",
+      "kind": "lab",
+      "when": "2026-10-14T09:00:00+02:00",
+      "sort_at": "2026-10-14T09:00:00+02:00",
+      "all_day": false,
+      "title": "Lab 7",
+      "subtitle": "",
+      "details": "",
+      "assignment": null,
+      "released": false,
+      "tbc": false,
+      "dateless": false,
+      "off_schedule": false,
+      "links": [],
+      "readings": [],
+      "reading_list": "",
+      "readings_pending": false,
+      "tabs": [
+        "lab"
+      ]
+    },
+    {
+      "id": "lecture_08",
+      "kind": "lecture",
+      "when": "2026-10-27T08:00:00+01:00",
+      "sort_at": "2026-10-27T08:00:00+01:00",
+      "all_day": false,
+      "title": "Lecture 8",
+      "subtitle": "",
+      "details": "",
+      "assignment": null,
+      "released": false,
+      "tbc": false,
+      "dateless": false,
+      "off_schedule": false,
+      "links": [],
+      "readings": [],
+      "reading_list": "### Session 8 readings\n\n#### Required Readings\n\nSavov, No Bullshit Guide to Linear Algebra\n\n- Chapter 7.1 (p. 257 - 268, stop at Discussion)\n- Chapter 7.6 (p. 292 - 295, stop at LU decomposition)\n\n#### Additional Readings\n\nGoodfellow, Bengio and Courville, Deep Learning\n\n- Chapter 2, Linear Algebra (p. 29 - 43)\n\n[Lerman, SVD notes](https://www-users.cse.umn.edu/~lerman/math5467/svd.pdf)",
+      "readings_pending": false,
+      "tabs": [
+        "lecture",
+        "readings"
+      ]
+    },
+    {
+      "id": "08_lab",
+      "kind": "lab",
+      "when": "2026-10-28T09:00:00+01:00",
+      "sort_at": "2026-10-28T09:00:00+01:00",
+      "all_day": false,
+      "title": "Lab 8",
+      "subtitle": "",
+      "details": "",
+      "assignment": null,
+      "released": false,
+      "tbc": false,
+      "dateless": false,
+      "off_schedule": false,
+      "links": [],
+      "readings": [],
+      "reading_list": "",
+      "readings_pending": false,
+      "tabs": [
+        "lab"
+      ]
+    },
+    {
+      "id": "lecture_09",
+      "kind": "lecture",
+      "when": "2026-11-03T08:00:00+01:00",
+      "sort_at": "2026-11-03T08:00:00+01:00",
+      "all_day": false,
+      "title": "Lecture 9",
+      "subtitle": "",
+      "details": "in-class quiz 4",
+      "assignment": null,
+      "released": false,
+      "tbc": false,
+      "dateless": false,
+      "off_schedule": false,
+      "links": [],
+      "readings": [],
+      "reading_list": "",
+      "readings_pending": true,
+      "tabs": [
+        "lecture",
+        "readings"
+      ]
+    },
+    {
+      "id": "09_lab",
+      "kind": "lab",
+      "when": "2026-11-04T09:00:00+01:00",
+      "sort_at": "2026-11-04T09:00:00+01:00",
+      "all_day": false,
+      "title": "Lab 9",
+      "subtitle": "",
+      "details": "",
+      "assignment": null,
+      "released": false,
+      "tbc": false,
+      "dateless": false,
+      "off_schedule": false,
+      "links": [],
+      "readings": [],
+      "reading_list": "",
+      "readings_pending": false,
+      "tabs": [
+        "lab"
+      ]
+    },
+    {
+      "id": "assignment-3:due",
+      "kind": "due",
+      "when": "2026-11-08T23:59:00+01:00",
+      "sort_at": "2026-11-08T23:59:00+01:00",
+      "all_day": false,
+      "title": "Assignment 3",
+      "subtitle": "",
+      "details": "",
+      "assignment": "assignment-3",
+      "released": true,
+      "tbc": false,
+      "dateless": false,
+      "off_schedule": false,
+      "links": [],
+      "readings": [],
+      "reading_list": "",
+      "readings_pending": false,
+      "tabs": [
+        "due"
+      ]
+    },
+    {
+      "id": "assignment-4:handout",
+      "kind": "assignment",
+      "when": "2026-11-10T07:00:00+01:00",
+      "sort_at": "2026-11-10T07:00:00+01:00",
+      "all_day": false,
+      "title": "Assignment 4",
+      "subtitle": "",
+      "details": "",
+      "assignment": "assignment-4",
+      "released": true,
+      "tbc": false,
+      "dateless": false,
+      "off_schedule": false,
+      "links": [],
+      "readings": [],
+      "reading_list": "",
+      "readings_pending": false,
+      "tabs": [
+        "assignment"
+      ]
+    },
+    {
+      "id": "lecture_10",
+      "kind": "lecture",
+      "when": "2026-11-10T08:00:00+01:00",
+      "sort_at": "2026-11-10T08:00:00+01:00",
+      "all_day": false,
+      "title": "Lecture 10",
+      "subtitle": "",
+      "details": "",
+      "assignment": null,
+      "released": false,
+      "tbc": false,
+      "dateless": false,
+      "off_schedule": false,
+      "links": [],
+      "readings": [],
+      "reading_list": "",
+      "readings_pending": true,
+      "tabs": [
+        "lecture",
+        "readings"
+      ]
+    },
+    {
+      "id": "10_lab",
+      "kind": "lab",
+      "when": "2026-11-11T09:00:00+01:00",
+      "sort_at": "2026-11-11T09:00:00+01:00",
+      "all_day": false,
+      "title": "Lab 10",
+      "subtitle": "",
+      "details": "",
+      "assignment": null,
+      "released": false,
+      "tbc": false,
+      "dateless": false,
+      "off_schedule": false,
+      "links": [],
+      "readings": [],
+      "reading_list": "",
+      "readings_pending": false,
+      "tabs": [
+        "lab"
+      ]
+    },
+    {
+      "id": "lecture_11",
+      "kind": "lecture",
+      "when": "2026-11-17T08:00:00+01:00",
+      "sort_at": "2026-11-17T08:00:00+01:00",
+      "all_day": false,
+      "title": "Lecture 11",
+      "subtitle": "",
+      "details": "in-class quiz 5",
+      "assignment": null,
+      "released": false,
+      "tbc": false,
+      "dateless": false,
+      "off_schedule": false,
+      "links": [],
+      "readings": [],
+      "reading_list": "",
+      "readings_pending": true,
+      "tabs": [
+        "lecture",
+        "readings"
+      ]
+    },
+    {
+      "id": "11_lab",
+      "kind": "lab",
+      "when": "2026-11-18T09:00:00+01:00",
+      "sort_at": "2026-11-18T09:00:00+01:00",
+      "all_day": false,
+      "title": "Lab 11",
+      "subtitle": "",
+      "details": "",
+      "assignment": null,
+      "released": false,
+      "tbc": false,
+      "dateless": false,
+      "off_schedule": false,
+      "links": [],
+      "readings": [],
+      "reading_list": "",
+      "readings_pending": false,
+      "tabs": [
+        "lab"
+      ]
+    },
+    {
+      "id": "lecture_12",
+      "kind": "lecture",
+      "when": "2026-11-24T08:00:00+01:00",
+      "sort_at": "2026-11-24T08:00:00+01:00",
+      "all_day": false,
+      "title": "Lecture 12",
+      "subtitle": "",
+      "details": "",
+      "assignment": null,
+      "released": false,
+      "tbc": false,
+      "dateless": false,
+      "off_schedule": false,
+      "links": [],
+      "readings": [],
+      "reading_list": "",
+      "readings_pending": true,
+      "tabs": [
+        "lecture",
+        "readings"
+      ]
+    },
+    {
+      "id": "12_lab",
+      "kind": "lab",
+      "when": "2026-11-25T09:00:00+01:00",
+      "sort_at": "2026-11-25T09:00:00+01:00",
+      "all_day": false,
+      "title": "Lab 12",
+      "subtitle": "",
+      "details": "",
+      "assignment": null,
+      "released": false,
+      "tbc": false,
+      "dateless": false,
+      "off_schedule": false,
+      "links": [],
+      "readings": [],
+      "reading_list": "",
+      "readings_pending": false,
+      "tabs": [
+        "lab"
+      ]
+    },
+    {
+      "id": "assignment-4:due",
+      "kind": "due",
+      "when": "2026-11-29T23:59:00+01:00",
+      "sort_at": "2026-11-29T23:59:00+01:00",
+      "all_day": false,
+      "title": "Assignment 4",
+      "subtitle": "",
+      "details": "",
+      "assignment": "assignment-4",
+      "released": true,
+      "tbc": false,
+      "dateless": false,
+      "off_schedule": false,
+      "links": [],
+      "readings": [],
+      "reading_list": "",
+      "readings_pending": false,
+      "tabs": [
+        "due"
+      ]
+    },
+    {
+      "id": "final-exam",
+      "kind": "exam",
+      "when": "2026-12-08T14:00:00+01:00",
+      "sort_at": "2026-12-08T14:00:00+01:00",
+      "all_day": false,
+      "title": "Final Exam",
+      "subtitle": "",
+      "details": "Two hours.",
+      "assignment": null,
+      "released": true,
+      "tbc": false,
+      "dateless": false,
+      "off_schedule": false,
+      "links": [],
+      "readings": [],
+      "reading_list": "",
+      "readings_pending": false,
+      "tabs": [
+        "exam"
+      ]
+    },
+    {
+      "id": "term-end",
+      "kind": "term_date",
+      "when": "2027-01-31",
+      "sort_at": "2027-01-31",
+      "all_day": true,
+      "title": "Semester ends",
+      "subtitle": "",
+      "details": "",
+      "assignment": null,
+      "released": true,
+      "tbc": false,
+      "dateless": false,
+      "off_schedule": false,
+      "links": [],
+      "readings": [],
+      "reading_list": "",
+      "readings_pending": false,
+      "tabs": [
+        "term_date"
+      ]
+    },
+    {
+      "id": "resit-exam",
+      "kind": "exam",
+      "when": null,
+      "sort_at": "2027-01-31T23:00:00+01:00",
+      "all_day": false,
+      "title": "Resit Exam",
+      "subtitle": "",
+      "details": "Date to be confirmed by the exam board.",
+      "assignment": null,
+      "released": true,
+      "tbc": true,
+      "dateless": true,
+      "off_schedule": false,
+      "links": [],
+      "readings": [],
+      "reading_list": "",
+      "readings_pending": false,
+      "tabs": [
+        "exam"
+      ]
+    },
+    {
+      "id": "semester-archived",
+      "kind": "special_event",
+      "when": "2027-04-01",
+      "sort_at": "2027-04-01",
+      "all_day": true,
+      "title": "Semester archived",
+      "subtitle": "",
+      "details": "This semester is archived on 2027-04-01: every repository in it becomes read-only. You keep read access, so you can still fork or clone anything you want to keep working on into your own account.",
+      "assignment": null,
+      "released": true,
+      "tbc": false,
+      "dateless": false,
+      "off_schedule": false,
+      "links": [],
+      "readings": [],
+      "reading_list": "",
+      "readings_pending": false,
+      "tabs": [
+        "special_event"
+      ]
+    }
+  ],
+  "assignments": [
+    {
+      "slug": "assignment-1",
+      "title": "Assignment 1",
+      "subtitle": "Introduce Yourself",
+      "handout_datetime": "2026-09-08T07:00:00+02:00",
+      "due_datetime": "2026-09-20T23:59:00+02:00",
+      "grading_cutoff_datetime": "2026-09-30T23:59:00+02:00",
+      "late_rule": "",
+      "cutoff_sentence": "",
+      "submit_via": "external",
+      "shape": "external",
+      "shape_note": "",
+      "private_repo": false,
+      "submit_url": "https://moodle.hertie-school.org/course/section.php?id=55657",
+      "group": false,
+      "team_formation": null,
+      "teams": [],
+      "solution_datetime": null,
+      "max_points": null,
+      "handed_out": true,
+      "brief": "*Math for Data Science · Fall 2026*\n\n**Due date:** 2026-09-20 · **Total: 10 points**\n\n**Submission:** one short video per person, **1–2 minutes**, uploaded to the assignment github repo.\nThis is a bit of a misuse of git, which is not a file sharing platform.\nHowever, it helps you to get to know the workflow.\nIf you prefer you can also upload the video to the [Moodle link for Assignment 1](https://moodle.hertie-school.org/course/section.php?id=55657).\nAny common format is fine (`.mp4`, `.mov`, `.webm`);\na phone or laptop webcam recording is entirely sufficient. If your file is too\nlarge for Moodle, upload it to your Hertie cloud storage and submit the link\ninstead. Name the file `lastname_firstname_assignment1`.\n\nThis assignment is graded on completion and on whether the connection you draw\nis a genuine one - not on production value, and not on getting the mathematics\nexactly right. Speak, don't read a script.\n\n## A short video introduction (10 points)\n\nRecord yourself speaking to camera for **1–2 minutes**, covering all four points\nbelow. Your face and voice should be recognisable - this is how the rest of us\nget to know you.\n\n**(a) (2 points) Who you are.** Your name and where you come from - academically,\ngeographically or personally, whichever you find more interesting to say.\n\n**(b) (2 points) What you do.** Your background and current work: what is your background,\nwhat you have worked on, what kind of data (if any) you have handled,\nand what you are hoping to get out of this course.\n\n**(c) (5 points) An example from your own context, connected to the course.**\nFind one situation from your own life, studies, or work - a real one, not a\ntextbook one - and relate it to a concept from the **first two lectures**.\nSay explicitly *which* concept you are using and *how* it applies. You have met,\namong others:\n\n- *Lecture 1* - sample spaces and events; counting with the multiplication rule,\n  permutations and combinations; conditional probability; independence;\n  Bayes' rule and updating a belief in light of evidence.\n- *Lecture 2* - random variables as a way of turning outcomes into numbers;\n  PMFs and CDFs; the Bernoulli, Binomial and (discrete) Uniform distributions\n  as models for real-world counts.\n\nYou do not need to compute anything. What we want to hear is the *mapping*: what\nis the problem statment and how can you relate it to the concepts presented in the class?\n\nSome examples of the kind of thing that works well: the screening test you were\ngiven at a doctor's appointment and what a positive result actually implied; the\nnumber of people who replied to a survey you sent out; how a delay on one leg of\nyour commute changed your estimate of arriving on time; the chance that a\nduplicate came up in a dataset you were cleaning; a hiring or admissions process\nyou went through.\n\n**(d) (1 point) Format.** Keep it between 1 and 2 minutes and make sure the\naudio is audible.",
+      "tbc": false
+    },
+    {
+      "slug": "assignment-2",
+      "title": "Assignment 2",
+      "subtitle": "Multinomial Sampling, PMFs and Naive Bayes",
+      "handout_datetime": "2026-09-22T07:00:00+02:00",
+      "due_datetime": "2026-10-11T23:59:00+02:00",
+      "grading_cutoff_datetime": "2026-10-21T23:59:00+02:00",
+      "late_rule": "10% per day, up to 10 days",
+      "cutoff_sentence": "What is on main at the late cutoff is what is marked.",
+      "submit_via": "assignment_repo",
+      "shape": "assignment-repo-private",
+      "shape_note": "NB: this repo is private - only you and the instructors can read it.",
+      "private_repo": true,
+      "submit_url": "",
+      "group": true,
+      "team_formation": {
+        "closes_datetime": "2026-10-21T23:59:00+02:00",
+        "max_team_size": 4
+      },
+      "teams": [
+        {
+          "name": "bayes-baes",
+          "members": 4,
+          "cap": 4
+        },
+        {
+          "name": "best-team",
+          "members": 4,
+          "cap": 4
+        },
+        {
+          "name": "brains",
+          "members": 4,
+          "cap": 4
+        },
+        {
+          "name": "free_4_all",
+          "members": 3,
+          "cap": 4
+        },
+        {
+          "name": "team-lea",
+          "members": 3,
+          "cap": 4
+        },
+        {
+          "name": "team-phn",
+          "members": 3,
+          "cap": 4
+        },
+        {
+          "name": "team-spreewald",
+          "members": 3,
+          "cap": 4
+        },
+        {
+          "name": "team_optimist",
+          "members": 4,
+          "cap": 4
+        },
+        {
+          "name": "the_best_team",
+          "members": 4,
+          "cap": 4
+        },
+        {
+          "name": "tubin4ever",
+          "members": 3,
+          "cap": 4
+        }
+      ],
+      "solution_datetime": null,
+      "max_points": null,
+      "handed_out": true,
+      "brief": "## Getting started\n\nThis folder is a self-contained [uv](https://docs.astral.sh/uv/) project - it\ncarries its own Python version and dependencies, so nothing else needs\ninstalling. From this folder, run:\n\n```bash\nuv sync              # build the environment (first time only)\nuv run jupyter lab   # start the notebook server\n```\n\nJupyter Lab opens in your browser. Open `assignment2_student.ipynb` and work through it; your\nanswers go wherever a cell says `# Your code here`.\n\n## Submission\n- Commit the jupyter notebook and any other files that hold your solution\n- Make sure that the solution is readable and has one clear answer to each question\n- Write you individual contributions to CONTRIBUTIONS.md and commit it",
+      "tbc": false
+    },
+    {
+      "slug": "assignment-3",
+      "title": "Assignment 3",
+      "subtitle": "Limit Theorems, Maximum Likelihood and Bayesian Inference",
+      "handout_datetime": "2026-10-13T07:00:00+02:00",
+      "due_datetime": "2026-11-08T23:59:00+01:00",
+      "grading_cutoff_datetime": "2026-11-18T23:59:00+01:00",
+      "late_rule": "10% per day, up to 10 days",
+      "cutoff_sentence": "What is on main at the late cutoff is what is marked.",
+      "submit_via": "assignment_repo",
+      "shape": "assignment-repo-private",
+      "shape_note": "NB: this repo is private - only you and the instructors can read it.",
+      "private_repo": true,
+      "submit_url": "",
+      "group": true,
+      "team_formation": {
+        "closes_datetime": "2026-11-18T23:59:00+01:00",
+        "max_team_size": 4
+      },
+      "teams": [
+        {
+          "name": "hello",
+          "members": 4,
+          "cap": 4
+        },
+        {
+          "name": "team-optimist",
+          "members": 2,
+          "cap": 4
+        },
+        {
+          "name": "team-phn",
+          "members": 2,
+          "cap": 4
+        },
+        {
+          "name": "team-spreewald",
+          "members": 3,
+          "cap": 4
+        }
+      ],
+      "solution_datetime": null,
+      "max_points": null,
+      "handed_out": true,
+      "brief": "## Getting started\n\nThis folder is a self-contained [uv](https://docs.astral.sh/uv/) project - it\ncarries its own Python version and dependencies, so nothing else needs\ninstalling. From this folder, run:\n\n```bash\nuv sync              # build the environment (first time only)\nuv run jupyter lab   # start the notebook server\n```\n\nJupyter Lab opens in your browser. Open `assignment3_student.ipynb` and work through it; your\nanswers go wherever a cell says `# here your code`.\n\n## Submission\n- You can choose if you want to use python or R\n- Commit the jupyter notebook and any other files that hold your solution. If you don't want to use jupyter you can also submit a .pdf with your solution and R code that allows to reproduce your solution.\n- Make sure that the solution is readable and has one clear answer to each question\n- Write you individual contributions to CONTRIBUTIONS.md and commit it",
+      "tbc": false
+    },
+    {
+      "slug": "assignment-4",
+      "title": "Assignment 4",
+      "subtitle": "",
+      "handout_datetime": "2026-11-10T07:00:00+01:00",
+      "due_datetime": "2026-11-29T23:59:00+01:00",
+      "grading_cutoff_datetime": "2026-12-09T23:59:00+01:00",
+      "late_rule": "10% per day, up to 10 days",
+      "cutoff_sentence": "What is on main at the late cutoff is what is marked.",
+      "submit_via": "assignment_repo",
+      "shape": "assignment-repo-private",
+      "shape_note": "",
+      "private_repo": true,
+      "submit_url": "",
+      "group": true,
+      "team_formation": null,
+      "teams": [],
+      "solution_datetime": null,
+      "max_points": null,
+      "handed_out": false,
+      "brief": "",
+      "tbc": false
+    }
+  ],
+  "instructors": [
+    {
+      "name": "Jan Gieseler",
+      "title": "",
+      "webpage": "https://hertie-school.org/en/datasciencelab",
+      "picture": "https://hertie-maths-data-science-f2026.github.io/_images/pp/2025_JG.png",
+      "role": "instructor",
+      "email": ""
+    },
+    {
+      "name": "Camilo Pedraza Jiménez",
+      "title": "",
+      "webpage": "",
+      "picture": "https://github.com/cpj97.png",
+      "role": "teaching_assistant",
+      "email": ""
+    }
+  ],
+  "late_policy": [
+    "10% per day, up to 10 days"
+  ],
+  "materials_repos": [
+    "materials"
+  ],
+  "announcements": []
+}
