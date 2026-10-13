@@ -1,6 +1,6 @@
 {
   "hold": true,
-  "migrated": false,
+  "migrated": true,
   "repos": {
     "hertie-maths-data-science-f2026/classroom-config": {
       "allowed_actions": "all",
