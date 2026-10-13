@@ -15,7 +15,7 @@ org; updates on every release.
 ## Getting started
 
 1. Open a **Join** issue in
-   [`welcome`](https://github.com/hertie-maths-data-science-f2026/welcome/issues/new/choose) to enrol - your
+   [`join`](https://github.com/hertie-maths-data-science-f2026/join/issues/new/choose) to enrol - your
    GitHub handle is captured automatically.
 2. Once you're enrolled, course **materials** open up here session by session, and your
    own assignment repositories appear in this org.
@@ -29,9 +29,9 @@ org; updates on every release.
      and is the audience rather than GitHub's public/private. -->
 | Repo | Who can see it | What it's for |
 | --- | --- | --- |
-| [welcome](https://github.com/hertie-maths-data-science-f2026/welcome) | public (students join here) | Course front door - open a Join issue to enrol |
+| [welcome](https://github.com/hertie-maths-data-science-f2026/join) | public (students join here) | Course front door - open a Join issue to enrol |
 | [materials](https://github.com/hertie-maths-data-science-f2026/materials) | enrolled students & auditors only | Released lectures, labs, readings, & other materials |
-| [classroom-config](https://github.com/hertie-maths-data-science-f2026/classroom-config) | instructor-only | [visible to instructors only]: Everything you configure for this cohort is here - student roster, teams, term schedule, and marking. Students never see it, and no PII leaves this repo. |
+| [semester-config](https://github.com/hertie-maths-data-science-f2026/semester-config) | instructor-only | [visible to instructors only]: Everything you configure for this cohort is here - student roster, teams, term schedule, and marking. Students never see it, and no PII leaves this repo. |
 | [hertie-maths-data-science-f2026.github.io](https://github.com/hertie-maths-data-science-f2026/hertie-maths-data-science-f2026.github.io) | public | [do not touch]: Course website (auto-deployed) |
 <!-- dsl:repo-table:end -->
 
