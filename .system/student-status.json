@@ -6,7 +6,7 @@
   "student_console": false,
   "semester_start": "2026-08-31",
   "semester_end": "2026-11-27",
-  "generated_at": "2026-10-22T13:13:45+00:00",
+  "generated_at": "2026-10-27T05:00:53+00:00",
   "timezone": "Europe/Berlin",
   "archive_datetime": "2027-04-01",
   "home_markdown": "Welcome to **Maths for Data Science** at the [Hertie School Data Science Lab]().\n\n**Questions?** Open an issue in this course's [GitHub organisation](https://github.com/hertie-maths-data-science-f2026) or contact the instructor directly.",
@@ -716,11 +716,18 @@
       "subtitle": "",
       "details": "",
       "assignment": null,
-      "released": false,
+      "released": true,
       "tbc": false,
       "dateless": false,
       "off_schedule": false,
-      "links": [],
+      "links": [
+        {
+          "name": "08_linear_algebra_eigendecomposition_svd.pdf",
+          "repo": "materials",
+          "path": "lectures/08_lecture/08_linear_algebra_eigendecomposition_svd.pdf",
+          "url": "https://github.com/hertie-maths-data-science-f2026/materials/blob/main/lectures/08_lecture/08_linear_algebra_eigendecomposition_svd.pdf"
+        }
+      ],
       "readings": [],
       "reading_list": "### Session 8 readings\n\n\n#### Fresher\n[Khan Academy](https://www.khanacademy.org/math/linear-algebra) on Linear Algebra\n\nSavov, No Bullshit Guide to Linear Algebra\n- Chapter 2\n\n#### Required Readings\n\nSavov, No Bullshit Guide to Linear Algebra\n\n- Chapter 7.1 (p. 257 - 268, stop at Discussion)\n- Chapter 7.6 (p. 292 - 295, stop at LU decomposition)\n\n#### Additional Readings\n\nGoodfellow, Bengio and Courville, [Deep Learning](https://www.deeplearningbook.org/contents/linear_algebra.html)\n\n- Chapter 2, Linear Algebra (p. 29 - 43)\n\n[Dan Kalman, The SVD of a Matrix](https://dankalman.net/AUhome/pdffiles/svd.pdf)",
       "readings_pending": false,
