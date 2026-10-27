@@ -6,7 +6,7 @@
   "student_console": false,
   "semester_start": "2026-08-31",
   "semester_end": "2026-11-27",
-  "generated_at": "2026-10-27T05:00:53+00:00",
+  "generated_at": "2026-10-27T07:00:47+00:00",
   "timezone": "Europe/Berlin",
   "archive_datetime": "2027-04-01",
   "home_markdown": "Welcome to **Maths for Data Science** at the [Hertie School Data Science Lab]().\n\n**Questions?** Open an issue in this course's [GitHub organisation](https://github.com/hertie-maths-data-science-f2026) or contact the instructor directly.",
@@ -776,8 +776,8 @@
       "off_schedule": false,
       "links": [],
       "readings": [],
-      "reading_list": "",
-      "readings_pending": true,
+      "reading_list": "### Session 9 readings\n\n#### Required Readings\n\n[Kolter and Do, Linear Algebra Review and Reference](https://www.cs.cmu.edu/~zkolter/course/15-884/linalg-review.pdf)\n\n- Chapter 4: Matrix Calculus (p. 20 - 26)\n\n[Hertzmann, Fleet and Brubaker, CSC 411 Course Notes (University of Toronto, 2015)](https://www.cs.toronto.edu/~mbrubake/teaching/C11/Handouts/LagrangeMultipliers.pdf)\n\n- Chapter 14, Lagrange Multipliers (p. 83 - 91)\n\nJames et al., An Introduction to Statistical Learning\n\n- Chapter 6.3.1 (p. 253 - 256)\n- Chapter 12.2 (p. 496 - 508)\n- Chapter 12.5.1\n\n#### Additional Resources\n\nKhan Academy on Lagrange multipliers\n\n- [Budgetary constraints (video)](https://www.khanacademy.org/math/multivariable-calculus/applications-of-multivariable-derivatives/lagrange-multipliers-and-constrained-optimization/v/lagrange-multiplier-example-part-1)\n- [Lagrange multipliers, examples](https://www.khanacademy.org/math/multivariable-calculus/applications-of-multivariable-derivatives/constrained-optimization/a/lagrange-multipliers-examples)\n- [Interpretation of Lagrange multipliers](https://www.khanacademy.org/math/multivariable-calculus/applications-of-multivariable-derivatives/constrained-optimization/a/interpretation-of-lagrange-multipliers)",
+      "readings_pending": false,
       "tabs": [
         "lecture",
         "readings"
