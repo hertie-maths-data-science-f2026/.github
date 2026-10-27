@@ -6,7 +6,7 @@
   "student_console": false,
   "semester_start": "2026-08-31",
   "semester_end": "2026-11-27",
-  "generated_at": "2026-10-27T11:53:57+00:00",
+  "generated_at": "2026-10-27T15:03:11+00:00",
   "timezone": "Europe/Berlin",
   "archive_datetime": "2027-04-01",
   "home_markdown": "Welcome to **Maths for Data Science** at the [Hertie School Data Science Lab]().\n\n**Questions?** Open an issue in this course's [GitHub organisation](https://github.com/hertie-maths-data-science-f2026) or contact the instructor directly.",
@@ -1231,6 +1231,11 @@
         {
           "name": "best-team",
           "members": 3,
+          "cap": 4
+        },
+        {
+          "name": "brains",
+          "members": 1,
           "cap": 4
         },
         {
