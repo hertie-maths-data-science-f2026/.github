@@ -6,7 +6,7 @@
   "student_console": false,
   "semester_start": "2026-08-31",
   "semester_end": "2026-11-27",
-  "generated_at": "2026-10-28T17:37:33+00:00",
+  "generated_at": "2026-10-28T18:30:52+00:00",
   "timezone": "Europe/Berlin",
   "archive_datetime": "2027-04-01",
   "home_markdown": "Welcome to **Maths for Data Science** at the [Hertie School Data Science Lab]().\n\n**Questions?** Open an issue in this course's [GitHub organisation](https://github.com/hertie-maths-data-science-f2026) or contact the instructor directly.",
@@ -173,6 +173,12 @@
           "repo": "materials",
           "path": "labs/01_lab/lab1_student.ipynb",
           "url": "https://github.com/hertie-maths-data-science-f2026/materials/blob/main/labs/01_lab/lab1_student.ipynb"
+        },
+        {
+          "name": "lab1_student.py",
+          "repo": "materials",
+          "path": "labs/01_lab/lab1_student.py",
+          "url": "https://github.com/hertie-maths-data-science-f2026/materials/blob/main/labs/01_lab/lab1_student.py"
         }
       ],
       "readings": [],
@@ -263,6 +269,12 @@
           "repo": "materials",
           "path": "labs/02_lab/lab2_student.ipynb",
           "url": "https://github.com/hertie-maths-data-science-f2026/materials/blob/main/labs/02_lab/lab2_student.ipynb"
+        },
+        {
+          "name": "lab2_student.py",
+          "repo": "materials",
+          "path": "labs/02_lab/lab2_student.py",
+          "url": "https://github.com/hertie-maths-data-science-f2026/materials/blob/main/labs/02_lab/lab2_student.py"
         }
       ],
       "readings": [],
@@ -449,6 +461,12 @@
           "repo": "materials",
           "path": "labs/04_lab/lab4_student.ipynb",
           "url": "https://github.com/hertie-maths-data-science-f2026/materials/blob/main/labs/04_lab/lab4_student.ipynb"
+        },
+        {
+          "name": "lab4_student.py",
+          "repo": "materials",
+          "path": "labs/04_lab/lab4_student.py",
+          "url": "https://github.com/hertie-maths-data-science-f2026/materials/blob/main/labs/04_lab/lab4_student.py"
         }
       ],
       "readings": [],
@@ -516,6 +534,12 @@
           "repo": "materials",
           "path": "labs/05_lab/lab5_student.ipynb",
           "url": "https://github.com/hertie-maths-data-science-f2026/materials/blob/main/labs/05_lab/lab5_student.ipynb"
+        },
+        {
+          "name": "lab5_student.py",
+          "repo": "materials",
+          "path": "labs/05_lab/lab5_student.py",
+          "url": "https://github.com/hertie-maths-data-science-f2026/materials/blob/main/labs/05_lab/lab5_student.py"
         }
       ],
       "readings": [],
@@ -583,6 +607,12 @@
           "repo": "materials",
           "path": "labs/06_lab/lab6_student.ipynb",
           "url": "https://github.com/hertie-maths-data-science-f2026/materials/blob/main/labs/06_lab/lab6_student.ipynb"
+        },
+        {
+          "name": "lab6_student.py",
+          "repo": "materials",
+          "path": "labs/06_lab/lab6_student.py",
+          "url": "https://github.com/hertie-maths-data-science-f2026/materials/blob/main/labs/06_lab/lab6_student.py"
         }
       ],
       "readings": [],
@@ -696,6 +726,12 @@
           "repo": "materials",
           "path": "labs/07_lab/lab7_student.ipynb",
           "url": "https://github.com/hertie-maths-data-science-f2026/materials/blob/main/labs/07_lab/lab7_student.ipynb"
+        },
+        {
+          "name": "lab7_student.py",
+          "repo": "materials",
+          "path": "labs/07_lab/lab7_student.py",
+          "url": "https://github.com/hertie-maths-data-science-f2026/materials/blob/main/labs/07_lab/lab7_student.py"
         }
       ],
       "readings": [],
@@ -757,6 +793,12 @@
           "repo": "materials",
           "path": "labs/08_lab/lab8_handout.pdf",
           "url": "https://github.com/hertie-maths-data-science-f2026/materials/blob/main/labs/08_lab/lab8_handout.pdf"
+        },
+        {
+          "name": "lab8_student.py",
+          "repo": "materials",
+          "path": "labs/08_lab/lab8_student.py",
+          "url": "https://github.com/hertie-maths-data-science-f2026/materials/blob/main/labs/08_lab/lab8_student.py"
         }
       ],
       "readings": [],
