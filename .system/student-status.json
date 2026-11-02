@@ -6,7 +6,7 @@
   "student_console": false,
   "semester_start": "2026-08-31",
   "semester_end": "2026-11-27",
-  "generated_at": "2026-11-02T17:28:58+00:00",
+  "generated_at": "2026-11-02T17:31:18+00:00",
   "timezone": "Europe/Berlin",
   "archive_datetime": "2027-04-01",
   "home_markdown": "Welcome to **Maths for Data Science** at the [Hertie School Data Science Lab]().\n\n**Questions?** Open an issue in this course's [GitHub organisation](https://github.com/hertie-maths-data-science-f2026) or contact the instructor directly.",
@@ -1366,6 +1366,29 @@
       "no_materials": false
     },
     {
+      "id": "assignment-10:due",
+      "kind": "due",
+      "when": "2026-12-10T10:00:00+01:00",
+      "sort_at": "2026-12-10T10:00:00+01:00",
+      "all_day": false,
+      "title": "Assignment 10",
+      "subtitle": "",
+      "details": "",
+      "assignment": "assignment-10",
+      "released": true,
+      "tbc": false,
+      "dateless": false,
+      "off_schedule": false,
+      "links": [],
+      "readings": [],
+      "reading_list": "",
+      "readings_pending": false,
+      "tabs": [
+        "due"
+      ],
+      "no_materials": false
+    },
+    {
       "id": "semester-archived",
       "kind": "special_event",
       "when": "2027-04-01",
@@ -1700,6 +1723,29 @@
       "max_points": null,
       "handed_out": true,
       "brief": "## Task\n\n_Write the assignment here (dsl-stub: replace this whole file)._\n\n## What to submit\n\n_Say where and how students hand in - nothing is collected from this repo. `submit_url:` in the semester's `assignments.yml` puts that address on the semester site as a button._",
+      "tbc": false
+    },
+    {
+      "slug": "assignment-10",
+      "title": "Assignment 10",
+      "subtitle": "Final Exam",
+      "handout_datetime": null,
+      "due_datetime": "2026-12-10T10:00:00+01:00",
+      "grading_cutoff_datetime": "2026-12-20T10:00:00+01:00",
+      "late_rule": "10% per day, up to 10 days",
+      "cutoff_sentence": "What is on main at the late cutoff is what is marked.",
+      "submit_via": "assignment_repo",
+      "shape": "assignment-repo-private",
+      "shape_note": "",
+      "private_repo": true,
+      "submit_url": "",
+      "group": false,
+      "team_formation": null,
+      "teams": [],
+      "solution_datetime": null,
+      "max_points": null,
+      "handed_out": false,
+      "brief": "",
       "tbc": false
     }
   ],
