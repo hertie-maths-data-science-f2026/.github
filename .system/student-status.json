@@ -6,7 +6,7 @@
   "student_console": false,
   "semester_start": "2026-08-31",
   "semester_end": "2026-11-27",
-  "generated_at": "2026-11-02T16:18:46+00:00",
+  "generated_at": "2026-11-02T16:24:07+00:00",
   "timezone": "Europe/Berlin",
   "archive_datetime": "2027-04-01",
   "home_markdown": "Welcome to **Maths for Data Science** at the [Hertie School Data Science Lab]().\n\n**Questions?** Open an issue in this course's [GitHub organisation](https://github.com/hertie-maths-data-science-f2026) or contact the instructor directly.",
@@ -925,6 +925,29 @@
       "no_materials": false
     },
     {
+      "id": "assignment-7:handout",
+      "kind": "assignment",
+      "when": "2026-11-02T17:23:00+01:00",
+      "sort_at": "2026-11-02T17:23:00+01:00",
+      "all_day": false,
+      "title": "Assignment 7",
+      "subtitle": "",
+      "details": "",
+      "assignment": "assignment-7",
+      "released": true,
+      "tbc": false,
+      "dateless": false,
+      "off_schedule": false,
+      "links": [],
+      "readings": [],
+      "reading_list": "",
+      "readings_pending": false,
+      "tabs": [
+        "assignment"
+      ],
+      "no_materials": false
+    },
+    {
       "id": "lecture_09",
       "kind": "lecture",
       "when": "2026-11-03T08:00:00+01:00",
@@ -1522,7 +1545,7 @@
       "slug": "assignment-7",
       "title": "Assignment 7",
       "subtitle": "Quiz 3",
-      "handout_datetime": null,
+      "handout_datetime": "2026-11-02T17:23:00+01:00",
       "due_datetime": "2026-10-19T08:00:00+02:00",
       "grading_cutoff_datetime": "2026-10-29T08:00:00+01:00",
       "late_rule": "10% per day, up to 10 days",
