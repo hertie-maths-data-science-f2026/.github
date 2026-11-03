@@ -6,7 +6,7 @@
   "student_console": false,
   "semester_start": "2026-08-31",
   "semester_end": "2026-11-27",
-  "generated_at": "2026-11-03T08:18:36+00:00",
+  "generated_at": "2026-11-03T23:25:15+00:00",
   "timezone": "Europe/Berlin",
   "archive_datetime": "2027-04-01",
   "home_markdown": "Welcome to **Maths for Data Science** at the [Hertie School Data Science Lab]().\n\n**Questions?** Open an issue in this course's [GitHub organisation](https://github.com/hertie-maths-data-science-f2026) or contact the instructor directly.",
@@ -15,60 +15,70 @@
   "kinds": {
     "lecture": {
       "label": "Lecture",
+      "plural": "lectures",
       "colour": "#a94442",
       "background": "#f2dede",
       "tab": true
     },
     "lab": {
       "label": "Lab",
+      "plural": "labs",
       "colour": "#3c763d",
       "background": "#dff0d8",
       "tab": true
     },
     "readings": {
       "label": "Readings",
+      "plural": "readings",
       "colour": "#2b6a60",
       "background": "#dcefec",
       "tab": true
     },
     "exam": {
       "label": "Exam",
+      "plural": "exams",
       "colour": "#2b2f36",
       "background": "#e6e8ec",
       "tab": true
     },
     "assignment": {
       "label": "Assignment",
+      "plural": "assignments",
       "colour": "#1f5fa8",
       "background": "#d6e6f7",
       "tab": false
     },
-    "term": {
+    "semester": {
       "label": "Semester",
+      "plural": "semesters",
       "colour": "#7b3fb8",
       "background": "#ead9f6",
       "tab": false
     },
     "archive": {
       "label": "Archive",
+      "plural": "archives",
       "colour": "#7d6230",
       "background": "#fbf2d5",
       "tab": false
     },
     "drop-in": {
       "label": "Drop-in",
+      "plural": "drop-ins",
       "colour": "#8f4a1c",
       "background": "#fbe3d6",
       "tab": true
     },
     "assets": {
       "label": "Supporting files",
+      "plural": "assets",
       "colour": "#4a5560",
       "background": "#eceff1",
       "tab": true
     },
     "other": {
       "label": "Event",
+      "plural": "events",
       "colour": "#7d6230",
       "background": "#fbf2d5",
       "tab": true
@@ -77,7 +87,7 @@
   "rows": [
     {
       "id": "term-start",
-      "kind": "term_date",
+      "kind": "semester",
       "when": "2026-08-31",
       "sort_at": "2026-08-31",
       "all_day": true,
@@ -86,6 +96,7 @@
       "details": "",
       "assignment": null,
       "released": true,
+      "released_at": null,
       "tbc": false,
       "dateless": false,
       "off_schedule": false,
@@ -94,9 +105,10 @@
       "reading_list": "",
       "readings_pending": false,
       "tabs": [
-        "term_date"
+        "semester"
       ],
-      "no_materials": false
+      "no_materials": false,
+      "repeat": false
     },
     {
       "id": "lecture_01",
@@ -109,6 +121,7 @@
       "details": "",
       "assignment": null,
       "released": true,
+      "released_at": null,
       "tbc": false,
       "dateless": false,
       "off_schedule": false,
@@ -145,7 +158,8 @@
         "lecture",
         "readings"
       ],
-      "no_materials": false
+      "no_materials": false,
+      "repeat": false
     },
     {
       "id": "01_lab",
@@ -158,6 +172,7 @@
       "details": "",
       "assignment": null,
       "released": true,
+      "released_at": "2026-11-04T00:21:00+01:00",
       "tbc": false,
       "dateless": false,
       "off_schedule": false,
@@ -187,7 +202,8 @@
       "tabs": [
         "lab"
       ],
-      "no_materials": false
+      "no_materials": false,
+      "repeat": false
     },
     {
       "id": "assignment-1:handout",
@@ -200,6 +216,7 @@
       "details": "",
       "assignment": "assignment-1",
       "released": true,
+      "released_at": null,
       "tbc": false,
       "dateless": false,
       "off_schedule": false,
@@ -210,7 +227,8 @@
       "tabs": [
         "assignment"
       ],
-      "no_materials": false
+      "no_materials": false,
+      "repeat": false
     },
     {
       "id": "lecture_02",
@@ -223,6 +241,7 @@
       "details": "",
       "assignment": null,
       "released": true,
+      "released_at": null,
       "tbc": false,
       "dateless": false,
       "off_schedule": false,
@@ -241,7 +260,8 @@
         "lecture",
         "readings"
       ],
-      "no_materials": false
+      "no_materials": false,
+      "repeat": false
     },
     {
       "id": "02_lab",
@@ -254,6 +274,7 @@
       "details": "",
       "assignment": null,
       "released": true,
+      "released_at": "2026-11-04T00:21:00+01:00",
       "tbc": false,
       "dateless": false,
       "off_schedule": false,
@@ -283,7 +304,8 @@
       "tabs": [
         "lab"
       ],
-      "no_materials": false
+      "no_materials": false,
+      "repeat": false
     },
     {
       "id": "assignment-5:due",
@@ -296,6 +318,7 @@
       "details": "",
       "assignment": "assignment-5",
       "released": true,
+      "released_at": null,
       "tbc": false,
       "dateless": false,
       "off_schedule": false,
@@ -306,7 +329,8 @@
       "tabs": [
         "due"
       ],
-      "no_materials": false
+      "no_materials": false,
+      "repeat": false
     },
     {
       "id": "assignment-6:due",
@@ -319,6 +343,7 @@
       "details": "",
       "assignment": "assignment-6",
       "released": true,
+      "released_at": null,
       "tbc": false,
       "dateless": false,
       "off_schedule": false,
@@ -329,7 +354,8 @@
       "tabs": [
         "due"
       ],
-      "no_materials": false
+      "no_materials": false,
+      "repeat": false
     },
     {
       "id": "lecture_03",
@@ -342,6 +368,7 @@
       "details": "in-class quiz 1",
       "assignment": null,
       "released": true,
+      "released_at": null,
       "tbc": false,
       "dateless": false,
       "off_schedule": false,
@@ -360,7 +387,8 @@
         "lecture",
         "readings"
       ],
-      "no_materials": false
+      "no_materials": false,
+      "repeat": false
     },
     {
       "id": "03_lab",
@@ -373,6 +401,7 @@
       "details": "",
       "assignment": null,
       "released": true,
+      "released_at": "2026-11-04T00:21:00+01:00",
       "tbc": false,
       "dateless": false,
       "off_schedule": false,
@@ -402,7 +431,8 @@
       "tabs": [
         "lab"
       ],
-      "no_materials": false
+      "no_materials": false,
+      "repeat": false
     },
     {
       "id": "assignment-1:due",
@@ -415,6 +445,7 @@
       "details": "",
       "assignment": "assignment-1",
       "released": true,
+      "released_at": null,
       "tbc": false,
       "dateless": false,
       "off_schedule": false,
@@ -425,7 +456,8 @@
       "tabs": [
         "due"
       ],
-      "no_materials": false
+      "no_materials": false,
+      "repeat": false
     },
     {
       "id": "assignment-2:handout",
@@ -438,6 +470,7 @@
       "details": "",
       "assignment": "assignment-2",
       "released": true,
+      "released_at": null,
       "tbc": false,
       "dateless": false,
       "off_schedule": false,
@@ -448,7 +481,8 @@
       "tabs": [
         "assignment"
       ],
-      "no_materials": false
+      "no_materials": false,
+      "repeat": false
     },
     {
       "id": "lecture_04",
@@ -461,6 +495,7 @@
       "details": "",
       "assignment": null,
       "released": true,
+      "released_at": null,
       "tbc": false,
       "dateless": false,
       "off_schedule": false,
@@ -479,7 +514,8 @@
         "lecture",
         "readings"
       ],
-      "no_materials": false
+      "no_materials": false,
+      "repeat": false
     },
     {
       "id": "04_lab",
@@ -492,6 +528,7 @@
       "details": "",
       "assignment": null,
       "released": true,
+      "released_at": "2026-11-04T00:21:00+01:00",
       "tbc": false,
       "dateless": false,
       "off_schedule": false,
@@ -521,7 +558,8 @@
       "tabs": [
         "lab"
       ],
-      "no_materials": false
+      "no_materials": false,
+      "repeat": false
     },
     {
       "id": "lecture_05",
@@ -534,6 +572,7 @@
       "details": "in-class quiz 2",
       "assignment": null,
       "released": true,
+      "released_at": null,
       "tbc": false,
       "dateless": false,
       "off_schedule": false,
@@ -552,7 +591,8 @@
         "lecture",
         "readings"
       ],
-      "no_materials": false
+      "no_materials": false,
+      "repeat": false
     },
     {
       "id": "05_lab",
@@ -565,6 +605,7 @@
       "details": "",
       "assignment": null,
       "released": true,
+      "released_at": "2026-11-04T00:21:00+01:00",
       "tbc": false,
       "dateless": false,
       "off_schedule": false,
@@ -594,7 +635,8 @@
       "tabs": [
         "lab"
       ],
-      "no_materials": false
+      "no_materials": false,
+      "repeat": false
     },
     {
       "id": "lecture_06",
@@ -607,6 +649,7 @@
       "details": "",
       "assignment": null,
       "released": true,
+      "released_at": null,
       "tbc": false,
       "dateless": false,
       "off_schedule": false,
@@ -625,7 +668,8 @@
         "lecture",
         "readings"
       ],
-      "no_materials": false
+      "no_materials": false,
+      "repeat": false
     },
     {
       "id": "06_lab",
@@ -638,6 +682,7 @@
       "details": "",
       "assignment": null,
       "released": true,
+      "released_at": "2026-11-04T00:21:00+01:00",
       "tbc": false,
       "dateless": false,
       "off_schedule": false,
@@ -667,7 +712,8 @@
       "tabs": [
         "lab"
       ],
-      "no_materials": false
+      "no_materials": false,
+      "repeat": false
     },
     {
       "id": "assignment-2:due",
@@ -680,6 +726,7 @@
       "details": "",
       "assignment": "assignment-2",
       "released": true,
+      "released_at": null,
       "tbc": false,
       "dateless": false,
       "off_schedule": false,
@@ -690,7 +737,8 @@
       "tabs": [
         "due"
       ],
-      "no_materials": false
+      "no_materials": false,
+      "repeat": false
     },
     {
       "id": "assignment-3:handout",
@@ -703,6 +751,7 @@
       "details": "",
       "assignment": "assignment-3",
       "released": true,
+      "released_at": null,
       "tbc": false,
       "dateless": false,
       "off_schedule": false,
@@ -713,7 +762,8 @@
       "tabs": [
         "assignment"
       ],
-      "no_materials": false
+      "no_materials": false,
+      "repeat": false
     },
     {
       "id": "lecture_07",
@@ -726,6 +776,7 @@
       "details": "in-class quiz 3",
       "assignment": null,
       "released": true,
+      "released_at": null,
       "tbc": false,
       "dateless": false,
       "off_schedule": false,
@@ -744,7 +795,8 @@
         "lecture",
         "readings"
       ],
-      "no_materials": false
+      "no_materials": false,
+      "repeat": false
     },
     {
       "id": "07_lab",
@@ -757,6 +809,7 @@
       "details": "",
       "assignment": null,
       "released": true,
+      "released_at": "2026-11-04T00:21:00+01:00",
       "tbc": false,
       "dateless": false,
       "off_schedule": false,
@@ -786,7 +839,8 @@
       "tabs": [
         "lab"
       ],
-      "no_materials": false
+      "no_materials": false,
+      "repeat": false
     },
     {
       "id": "assignment-7:due",
@@ -799,6 +853,7 @@
       "details": "",
       "assignment": "assignment-7",
       "released": true,
+      "released_at": null,
       "tbc": false,
       "dateless": false,
       "off_schedule": false,
@@ -809,7 +864,8 @@
       "tabs": [
         "due"
       ],
-      "no_materials": false
+      "no_materials": false,
+      "repeat": false
     },
     {
       "id": "lecture_08",
@@ -822,6 +878,7 @@
       "details": "",
       "assignment": null,
       "released": true,
+      "released_at": null,
       "tbc": false,
       "dateless": false,
       "off_schedule": false,
@@ -840,7 +897,8 @@
         "lecture",
         "readings"
       ],
-      "no_materials": false
+      "no_materials": false,
+      "repeat": false
     },
     {
       "id": "08_lab",
@@ -853,6 +911,7 @@
       "details": "",
       "assignment": null,
       "released": true,
+      "released_at": "2026-11-04T00:21:00+01:00",
       "tbc": false,
       "dateless": false,
       "off_schedule": false,
@@ -876,7 +935,8 @@
       "tabs": [
         "lab"
       ],
-      "no_materials": false
+      "no_materials": false,
+      "repeat": false
     },
     {
       "id": "assignment-5:handout",
@@ -889,6 +949,7 @@
       "details": "",
       "assignment": "assignment-5",
       "released": true,
+      "released_at": null,
       "tbc": false,
       "dateless": false,
       "off_schedule": false,
@@ -899,7 +960,8 @@
       "tabs": [
         "assignment"
       ],
-      "no_materials": false
+      "no_materials": false,
+      "repeat": false
     },
     {
       "id": "assignment-6:handout",
@@ -912,6 +974,7 @@
       "details": "",
       "assignment": "assignment-6",
       "released": true,
+      "released_at": null,
       "tbc": false,
       "dateless": false,
       "off_schedule": false,
@@ -922,7 +985,8 @@
       "tabs": [
         "assignment"
       ],
-      "no_materials": false
+      "no_materials": false,
+      "repeat": false
     },
     {
       "id": "assignment-7:handout",
@@ -935,6 +999,7 @@
       "details": "",
       "assignment": "assignment-7",
       "released": true,
+      "released_at": null,
       "tbc": false,
       "dateless": false,
       "off_schedule": false,
@@ -945,7 +1010,8 @@
       "tabs": [
         "assignment"
       ],
-      "no_materials": false
+      "no_materials": false,
+      "repeat": false
     },
     {
       "id": "assignment-8:handout",
@@ -958,6 +1024,7 @@
       "details": "",
       "assignment": "assignment-8",
       "released": true,
+      "released_at": null,
       "tbc": false,
       "dateless": false,
       "off_schedule": false,
@@ -968,7 +1035,8 @@
       "tabs": [
         "assignment"
       ],
-      "no_materials": false
+      "no_materials": false,
+      "repeat": false
     },
     {
       "id": "assignment-9:handout",
@@ -981,6 +1049,7 @@
       "details": "",
       "assignment": "assignment-9",
       "released": true,
+      "released_at": null,
       "tbc": false,
       "dateless": false,
       "off_schedule": false,
@@ -991,7 +1060,8 @@
       "tabs": [
         "assignment"
       ],
-      "no_materials": false
+      "no_materials": false,
+      "repeat": false
     },
     {
       "id": "assignment-10:handout",
@@ -1004,6 +1074,7 @@
       "details": "",
       "assignment": "assignment-10",
       "released": true,
+      "released_at": null,
       "tbc": false,
       "dateless": false,
       "off_schedule": false,
@@ -1014,7 +1085,8 @@
       "tabs": [
         "assignment"
       ],
-      "no_materials": false
+      "no_materials": false,
+      "repeat": false
     },
     {
       "id": "assignment-8:due",
@@ -1027,6 +1099,7 @@
       "details": "",
       "assignment": "assignment-8",
       "released": true,
+      "released_at": null,
       "tbc": false,
       "dateless": false,
       "off_schedule": false,
@@ -1037,7 +1110,8 @@
       "tabs": [
         "due"
       ],
-      "no_materials": false
+      "no_materials": false,
+      "repeat": false
     },
     {
       "id": "lecture_09",
@@ -1050,6 +1124,7 @@
       "details": "in-class quiz 4",
       "assignment": null,
       "released": true,
+      "released_at": null,
       "tbc": false,
       "dateless": false,
       "off_schedule": false,
@@ -1068,7 +1143,8 @@
         "lecture",
         "readings"
       ],
-      "no_materials": false
+      "no_materials": false,
+      "repeat": false
     },
     {
       "id": "09_lab",
@@ -1081,6 +1157,7 @@
       "details": "",
       "assignment": null,
       "released": false,
+      "released_at": null,
       "tbc": false,
       "dateless": false,
       "off_schedule": false,
@@ -1091,7 +1168,8 @@
       "tabs": [
         "lab"
       ],
-      "no_materials": false
+      "no_materials": false,
+      "repeat": false
     },
     {
       "id": "assignment-3:due",
@@ -1104,6 +1182,7 @@
       "details": "",
       "assignment": "assignment-3",
       "released": true,
+      "released_at": null,
       "tbc": false,
       "dateless": false,
       "off_schedule": false,
@@ -1114,7 +1193,8 @@
       "tabs": [
         "due"
       ],
-      "no_materials": false
+      "no_materials": false,
+      "repeat": false
     },
     {
       "id": "assignment-4:handout",
@@ -1127,6 +1207,7 @@
       "details": "",
       "assignment": "assignment-4",
       "released": true,
+      "released_at": null,
       "tbc": false,
       "dateless": false,
       "off_schedule": false,
@@ -1137,7 +1218,8 @@
       "tabs": [
         "assignment"
       ],
-      "no_materials": false
+      "no_materials": false,
+      "repeat": false
     },
     {
       "id": "lecture_10",
@@ -1150,6 +1232,7 @@
       "details": "",
       "assignment": null,
       "released": false,
+      "released_at": null,
       "tbc": false,
       "dateless": false,
       "off_schedule": false,
@@ -1161,7 +1244,8 @@
         "lecture",
         "readings"
       ],
-      "no_materials": false
+      "no_materials": false,
+      "repeat": false
     },
     {
       "id": "10_lab",
@@ -1174,6 +1258,7 @@
       "details": "",
       "assignment": null,
       "released": false,
+      "released_at": null,
       "tbc": false,
       "dateless": false,
       "off_schedule": false,
@@ -1184,7 +1269,8 @@
       "tabs": [
         "lab"
       ],
-      "no_materials": false
+      "no_materials": false,
+      "repeat": false
     },
     {
       "id": "assignment-9:due",
@@ -1197,6 +1283,7 @@
       "details": "",
       "assignment": "assignment-9",
       "released": true,
+      "released_at": null,
       "tbc": false,
       "dateless": false,
       "off_schedule": false,
@@ -1207,7 +1294,8 @@
       "tabs": [
         "due"
       ],
-      "no_materials": false
+      "no_materials": false,
+      "repeat": false
     },
     {
       "id": "lecture_11",
@@ -1220,6 +1308,7 @@
       "details": "in-class quiz 5",
       "assignment": null,
       "released": false,
+      "released_at": null,
       "tbc": false,
       "dateless": false,
       "off_schedule": false,
@@ -1231,7 +1320,8 @@
         "lecture",
         "readings"
       ],
-      "no_materials": false
+      "no_materials": false,
+      "repeat": false
     },
     {
       "id": "11_lab",
@@ -1244,6 +1334,7 @@
       "details": "",
       "assignment": null,
       "released": false,
+      "released_at": null,
       "tbc": false,
       "dateless": false,
       "off_schedule": false,
@@ -1254,7 +1345,8 @@
       "tabs": [
         "lab"
       ],
-      "no_materials": false
+      "no_materials": false,
+      "repeat": false
     },
     {
       "id": "lecture_12",
@@ -1267,6 +1359,7 @@
       "details": "",
       "assignment": null,
       "released": false,
+      "released_at": null,
       "tbc": false,
       "dateless": false,
       "off_schedule": false,
@@ -1278,7 +1371,8 @@
         "lecture",
         "readings"
       ],
-      "no_materials": false
+      "no_materials": false,
+      "repeat": false
     },
     {
       "id": "12_lab",
@@ -1291,6 +1385,7 @@
       "details": "",
       "assignment": null,
       "released": false,
+      "released_at": null,
       "tbc": false,
       "dateless": false,
       "off_schedule": false,
@@ -1301,11 +1396,12 @@
       "tabs": [
         "lab"
       ],
-      "no_materials": false
+      "no_materials": false,
+      "repeat": false
     },
     {
       "id": "term-end",
-      "kind": "term_date",
+      "kind": "semester",
       "when": "2026-11-27",
       "sort_at": "2026-11-27",
       "all_day": true,
@@ -1314,6 +1410,7 @@
       "details": "",
       "assignment": null,
       "released": true,
+      "released_at": null,
       "tbc": false,
       "dateless": false,
       "off_schedule": false,
@@ -1322,9 +1419,10 @@
       "reading_list": "",
       "readings_pending": false,
       "tabs": [
-        "term_date"
+        "semester"
       ],
-      "no_materials": false
+      "no_materials": false,
+      "repeat": false
     },
     {
       "id": "resit-exam",
@@ -1337,6 +1435,7 @@
       "details": "Date to be confirmed by the exam board.",
       "assignment": null,
       "released": true,
+      "released_at": null,
       "tbc": true,
       "dateless": true,
       "off_schedule": false,
@@ -1347,7 +1446,8 @@
       "tabs": [
         "exam"
       ],
-      "no_materials": false
+      "no_materials": false,
+      "repeat": false
     },
     {
       "id": "assignment-4:due",
@@ -1360,6 +1460,7 @@
       "details": "",
       "assignment": "assignment-4",
       "released": true,
+      "released_at": null,
       "tbc": false,
       "dateless": false,
       "off_schedule": false,
@@ -1370,7 +1471,8 @@
       "tabs": [
         "due"
       ],
-      "no_materials": false
+      "no_materials": false,
+      "repeat": false
     },
     {
       "id": "final-exam",
@@ -1383,6 +1485,7 @@
       "details": "Two hours.",
       "assignment": null,
       "released": true,
+      "released_at": null,
       "tbc": false,
       "dateless": false,
       "off_schedule": false,
@@ -1393,7 +1496,8 @@
       "tabs": [
         "exam"
       ],
-      "no_materials": false
+      "no_materials": false,
+      "repeat": false
     },
     {
       "id": "assignment-10:due",
@@ -1406,6 +1510,7 @@
       "details": "",
       "assignment": "assignment-10",
       "released": true,
+      "released_at": null,
       "tbc": false,
       "dateless": false,
       "off_schedule": false,
@@ -1416,7 +1521,8 @@
       "tabs": [
         "due"
       ],
-      "no_materials": false
+      "no_materials": false,
+      "repeat": false
     },
     {
       "id": "semester-archived",
@@ -1429,6 +1535,7 @@
       "details": "This semester is archived on 2027-04-01: every repository in it becomes read-only. You keep read access, so you can still fork or clone anything you want to keep working on into your own account.",
       "assignment": null,
       "released": true,
+      "released_at": null,
       "tbc": false,
       "dateless": false,
       "off_schedule": false,
@@ -1439,7 +1546,8 @@
       "tabs": [
         "special_event"
       ],
-      "no_materials": false
+      "no_materials": false,
+      "repeat": false
     }
   ],
   "assignments": [
