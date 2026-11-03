@@ -1,6 +1,6 @@
 {
   "hold": true,
-  "migrated": false,
+  "migrated": true,
   "repos": {
     "hertie-maths-data-science-f2026/hertie-maths-data-science-f2026.github.io": {
       "allowed_actions": "all",
