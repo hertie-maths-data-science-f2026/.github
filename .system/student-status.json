@@ -6,7 +6,7 @@
   "student_console": false,
   "semester_start": "2026-08-31",
   "semester_end": "2026-11-27",
-  "generated_at": "2026-11-10T09:06:57+00:00",
+  "generated_at": "2026-11-10T09:16:28+00:00",
   "timezone": "Europe/Berlin",
   "archive_datetime": "2027-04-01",
   "home_markdown": "Welcome to **Maths for Data Science** at the [Hertie School Data Science Lab]().\n\n**Questions?** Open an issue in this course's [GitHub organisation](https://github.com/hertie-maths-data-science-f2026) or contact the instructor directly.",
@@ -1250,12 +1250,19 @@
       "subtitle": "Linear Regression",
       "details": "",
       "assignment": null,
-      "released": false,
-      "released_at": "2026-11-05T10:41:26+01:00",
+      "released": true,
+      "released_at": "2026-11-10T10:15:29+01:00",
       "tbc": false,
       "dateless": false,
       "off_schedule": false,
-      "links": [],
+      "links": [
+        {
+          "name": "10_linear_regression.pdf",
+          "repo": "materials",
+          "path": "lectures/10_lecture/10_linear_regression.pdf",
+          "url": "https://github.com/hertie-maths-data-science-f2026/materials/blob/main/lectures/10_lecture/10_linear_regression.pdf"
+        }
+      ],
       "readings": [],
       "reading_list": "##### Recommended Readings\n**James, Witten, Hastie & Tibshirani, *An Introduction to Statistical Learning***\n\n- Ch. 3.1, p. 61 - 71 - simple linear regression, its coefficients, and their accuracy\n- Ch. 3.2, p. 71 - 75 - multiple linear regression until 3.2.2\n\n##### Additional Resources\n\n**James, Witten, Hastie & Tibshirani, *An Introduction to Statistical Learning***\n- Ch. 3.2, p. 75 - 83 - remainder of Ch. 3.2\n- Ch. 6.2,  p. 237 - 251 - ridge regression and the lasso\n\n**Richard McElrath, *Statistical Retinking***\n\n- Ch.4 p.71 -122\n- see also video lecture A03 from [Statistical Retinking 2026](https://www.youtube.com/playlist?list=PLDcUM9US4XdNOlqSyhe38US8mFgmqzI14)\n\n[3Blue1Brown - Taylor series | Chapter 11, Essence of calculus](https://www.youtube.com/watch?v=3d6DsjIBzJ4)",
       "readings_pending": false,
